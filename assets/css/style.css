@@ -63,7 +63,7 @@ h1,h2,h4 {
 
 }
 .menu-section {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     border-bottom:5px solid #CECECE;
     width:100%
 }
@@ -104,7 +104,7 @@ border: 1px solid black;
         text-align:center;
         font-size:30px;
         font-weight:900;
-        text-transform:uppercase;
+        /*text-transform:uppercase;*/
         background-color:rgba(0, 0, 0, 0.65);
         max-width:440px;
         padding:15px 25px;
@@ -116,9 +116,9 @@ border: 1px solid black;
         text-align:center;
         font-size:25px;
         font-weight:900;
-        text-transform:uppercase;
+        /*text-transform:uppercase;*/
         background-color:rgba(0, 0, 0, 0.65);
-        max-width:340px;
+        max-width:550px;
         padding:15px 25px;
         
 
@@ -128,17 +128,24 @@ border: 1px solid black;
     PAGE STYLES
  ============================================================ */
 .below-slideshow {
-    color:#fff;
-    background:#01a2a6;
-    padding-bottom:50px;
+    color:#333;
+    background:#ffffff;
+    padding-bottom:30px;
+    border-top: #333;
+    border-top-style: solid;
+    border-width: 6px;
     
+}
+.below-aboutslideshow {
+    color:#333;
+    background:#ffffff;    
 }
     .below-slideshow i {
         padding-bottom:15px;
     }
     .below-slideshow .txt-block {
         
-        padding-top:50px;
+        padding-top:15px;
     }
      .below-slideshow h4 {
         font-weight:800;
